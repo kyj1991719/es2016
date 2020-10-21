@@ -80,7 +80,7 @@ for(var val of values) {
     console.log(val);
 }
 
-//for-of로 Object를 열거하기 위해서는 Object의 프로퍼티 키르르 배열로 변환하여 프로퍼티 값을 호출하는 형태로 해야함
+//for-of로 Object를 열거하기 위해서는 Object의 프로퍼티 키를 배열로 변환하여 프로퍼티 값을 호출하는 형태로 해야함
 var sports = {soccer:"축구", baseball: "야구"};
 var keyList = Object.keys(sports);
 for(var key of keyList) {
